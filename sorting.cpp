@@ -29,8 +29,6 @@ vector<int> generateRandomNumbers(int n, int min, int max)
     return randomNumbers;
 }
 
-/* AQUINO, AARON ANGELO */
-
 // Function to perform Bubble Sort
 void bubbleSort(vector<int> &arr)
 {
@@ -47,8 +45,6 @@ void bubbleSort(vector<int> &arr)
         printVector(arr);
     }
 }
-
-/* TRAYA, HANNAH GRACE */
 
 // Function to perform Insertion Sort
 void insertionSort(vector<int> &arr)
@@ -68,9 +64,6 @@ void insertionSort(vector<int> &arr)
     }
 }
 
-/* GUBATAO, JONALYN
-    DELA CRUZ, KRISTINA */
-
 // Function to perform Selection Sort
 void selectionSort(vector<int> &arr)
 {
@@ -89,9 +82,6 @@ void selectionSort(vector<int> &arr)
         printVector(arr);
     }
 }
-
-/* POLMO, JESSICA
-    JUGAR, JOANA MARIE */
 
 // Function to perform Merge Sort
 void merge(vector<int> &arr, int l, int m, int r)
@@ -155,9 +145,6 @@ void mergeSort(vector<int> &arr, int l, int r)
     }
 }
 
-/* ORCINO, ALLEN JEFFERSON 
-     PORCIUNCULA, IAN ADRIANN */
-
 // Function to perform Heapify in Heap Sort
 void heapify(vector<int> &arr, int n, int i)
 {
@@ -203,9 +190,6 @@ void heapSort(vector<int> &arr)
     }
 }
 
-/* SANCHEZ, ERICK
-    NUESTRO, ALJON*/
-
 // Function to partition in Quick Sort
 int partition(vector<int> &arr, int low, int high)
 {
@@ -237,9 +221,6 @@ void quickSort(vector<int> &arr, int low, int high)
     }
 }
 
-/* CATAPIA, IRA CHRISTINE
-    ALOCON, JACOB */
-
 // Function to perform Shell Sort
 void shellSort(vector<int> &arr)
 {
@@ -263,9 +244,6 @@ void shellSort(vector<int> &arr)
         printVector(arr);
     }
 }
-
-/* RECODIG, CARL ANGELO 
-    LUGON, JHONREY KYLE */
 
 // Function to get the maximum value in Radix Sort
 int getMax(vector<int> &arr)
